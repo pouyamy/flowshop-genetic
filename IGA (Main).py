@@ -9,8 +9,6 @@ from Crossover import two_points_crossover, partially_mapped_crossover, similar_
 from Mutation import arbitrary_three_job, arbitrary_two_job, shift_change
 import plotly.figure_factory as ff
 
-# Pouya Malakouti 401211963
-
 def improved_genetic_algorithm(p_ij, n_jobs, n_machines, population_size, crossover_prob, mutation_prob, roulette_wheel_prob, tournament_prob, two_point_prob,
                                pmx_prob, sjox_prob, lox_prob, three_job_prob, two_job_prob, shift_change_prob, mutation_multiplier,
                                num_generations, gen_limit_reassign, gen_limit_mutation_prob, tournament_size):
@@ -184,7 +182,7 @@ g_m = 150         # Generation limit for changing mutation probability
 tournament_size = 13
 
 # jobs, p_ij, n_j, n_m = read_instance('Instances/VFR10_5_9_Gap.txt')
-jobs, p_ij, n_j, n_m = read_instance('/Users/pouya/Desktop/Genetic Alg - 401211963/Instances/VFR10_5_9_Gap.txt')
+jobs, p_ij, n_j, n_m = read_instance('VFR10_5_9_Gap.txt')
 schedule, obj = improved_genetic_algorithm(p_ij= p_ij, n_jobs= n_j, n_machines= n_m,
                                            population_size= p_s,
                                            crossover_prob= p_c,
