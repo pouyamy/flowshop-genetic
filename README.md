@@ -1,8 +1,4 @@
-# Improved Genetic Algorithm for Flowshop Scheduling Problem - Re-implementation
-
-This repository contains a re-implementation of the paper:  
-**An improved genetic algorithm for the flowshop scheduling problem**, published in the *International Journal of Production Research*, 2007.  
-[DOI: 10.1080/00207540701523041](https://doi.org/10.1080/00207540701523041)
+# Implementation of Improved Genetic Algorithm for Flowshop Scheduling Problem
 
 ## Overview
 
