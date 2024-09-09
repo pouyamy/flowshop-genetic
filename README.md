@@ -15,8 +15,8 @@ This repository implements the improved genetic algorithm (GA) described in the 
 ## Problem Formulation
 
 The goal of the flowshop scheduling problem is to minimize the makespan (the time it takes to complete all jobs) while adhering to the following conditions:
-- \( m \) machines and \( n \) jobs.
-- Each job \( J_i \) must be processed on each machine \( M_j \) in the same order.
+- $m$ machines and $n$ jobs.
+- Each job $J_i$ must be processed on each machine $M_j$ in the same order.
 - The objective is to find the sequence of jobs that minimizes the total makespan.
 
 - ## References
