@@ -19,5 +19,5 @@ The goal of the flowshop scheduling problem is to minimize the makespan (the tim
 - Each job $J_i$ must be processed on each machine $M_j$ in the same order.
 - The objective is to find the sequence of jobs that minimizes the total makespan.
 
-- ## References
+## References
 - Rajkumar, R., & Shahabudeen, P. (2008). An improved genetic algorithm for the flowshop scheduling problem. International Journal of Production Research, 47(1), 233–249. https://doi.org/10.1080/00207540701523041
