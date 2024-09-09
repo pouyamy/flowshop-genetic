@@ -12,7 +12,7 @@ This repository implements the improved genetic algorithm (GA) described in the 
 - **Performance-Oriented**: Focuses on minimizing makespan in flowshop environments, which is critical in manufacturing and production scheduling.
 - **Modular Design**: The code is structured into modules for easier understanding and adaptability.
 
-- ## Problem Formulation
+## Problem Formulation
 
 The goal of the flowshop scheduling problem is to minimize the makespan (the time it takes to complete all jobs) while adhering to the following conditions:
 - \( m \) machines and \( n \) jobs.
